@@ -1,128 +1,495 @@
 <!DOCTYPE html>
-
-<html lang="en">
-
+<html>
 <head>
 
-<meta charset='utf-8' />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Vikas's home page</title>
-
-<style type="text/css">
-
-    img {
-
-        height:350px;
-        width:500px;
-    }
-
-    ul.master_navigation
-    {
-        font-size: 100%;
-        font-weight: bold;
-        text-align: center;
-        list-style: none;
-        margin: 0.5em 0;
-        padding: 0;
-    }
-
-    ul.master_navigation li
-    {
-        display: inline-block;
-        padding: 0 0.5%;
-    }
-
-    a
-    {
-        color: darkblue;
-        font-weight: bold;
-        text-decoration: none;
-    }
-
-    a:visited
-    {
-        color: darkblue;
-    }
-
-    a:hover
-    {
-        color: green;
-    }
-
-    p
-    {
-        text-align: justify;
-        font-size:13pt;
-    }
+    <title>Portfolio Website</title>
 
 
-</style>
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lilita+One' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Alegreya+Sans+SC' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 
-<style type="text/css" media="screen">
-    body {
-        color:antiquewhite;
-        width:1300px;
-        max-width: 100%;
-        margin-left: 50px;
-        margin-right:50px;
-        padding:20px;
-    }
 
-    .pad {
-       padding:10px;
-    }
-</style>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="css/animate.css" rel="stylesheet" type="text/css">
+    <link href="css/creative-brands.css" rel="stylesheet" type="text/css">
+    <link href="css/vertical-carousel.css" rel="stylesheet" type="text/css">
+    <link href="css/custom.css" rel="stylesheet" type="text/css">
 
 </head>
+<body id="page-top">
+	<a href="#page-top" class="scroll-up scroll"><i class="fa fa-chevron-up"></i></a>
+    <h1>Freelancer</h1>
 
-<body style="background-image:url(bg.jpg);background-size:cover;background-attachment:fixed; text-align:center; width:90%; height:100%">
+    <!-- ==========================
+    	HEADER - START
+    =========================== -->
+    <header>
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavigation"><i class="fa fa-bars"></i></button>
+                    <img src="image/Linkedin.JPG" class="navbar-logo pull-left" alt="" />
+                    <a href="index.html" class="navbar-brand animated flipInX">Vikas Vellanki</a>
+                </div>
 
-<div style="padding-bottom:10px;font-size:20pt">
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="myNavigation">
 
-<h1 style="color:darkblue"> Welcome to my home page </h1>
+                    <ul class="nav navbar-nav navbar-right animated flipInX">
+                        <li><a href="#about" class="scroll">About</a></li>
+                        <li><a href="#projects" class="scroll">Projects</a></li>
+                        <li><a href="#contact" class="scroll">Contact</a></li>
 
-</div>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container -->
+        </nav>
 
-<div style="float : left ; padding-left:30px ;padding-right:30px">
+        <div class="jumbotron">
+            <img src="image/Linkedin.JPG" class="img-responsive my-image scrollpoint sp-effect3" style="border-radius:50%;" alt="" />
+            <div class="social-wrapper">
+                <ul class="brands brands-inline hidden-xs scrollpoint sp-effect1">
+                    <li><a target="_blank" href="https://github.com/vikasv/"><i class="fa fa-github"></i></a></li>
+                </ul>
+                <h2 class="scrollpoint sp-effect3">VIKAS</h2>
+                <ul class="brands brands-inline hidden-xs scrollpoint sp-effect2">
+                    <li><a target="_blank" href="https://www.linkedin.com/in/vikasvellanki"><i class="fa fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+            <!-- Slideshow start -->
+            <div id="slideshow" class="carousel slide vertical scrollpoint sp-effect3" data-ride="carousel">
+                <div class="carousel-inner">
+                    <!-- Slideshow item 1 active -->
+                    <div class="item active"><h3>I <i class="fa fa-heart icon-first"></i> Web Development</h3></div>
+                    <!-- Slideshow item 2 -->
+                    <div class="item"><h3><i class="fa fa-code icon"></i> Technology Freak<i class="fa fa-code icon"></i></h3></div>
+                </div>
+            </div>
+            <!-- Slideshow end -->
+        <a href="#about" class="btn btn-reference btn-lg scroll scrollpoint sp-effect1" role="button"><i class="fa fa-smile-o"></i> Curious to know about me.</a>
 
-<img style="width:600px;height:400px" src ="vik.jpg" />
+        </div>
+    </header>
+    <!-- ==========================
+    	HEADER - END
+    =========================== -->
 
-<h1> Vikas Vellanki </h1>
+    <!-- ==========================
+    	ABOUT - START
+    =========================== -->
+    <section id="about" class="content-first">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-2 hidden-xs scrollpoint sp-effect1"><!-- Profile image -->
+                	<img src="image/SecondPic.jpg" class="image-bordered img-responsive" alt="" />
+                </div><!-- Profile end -->
 
-</div>
+                <div class="col-md-7 col-sm-6 scrollpoint sp-effect1"><!-- Profile description -->
+                	<h3>Vikas Vellanki</h3>
+                    <div>
+                        <ul class="nav nav-tabs">
+                            <li class="active"><a data-toggle="tab" href="#aboutme">About me</a></li>
+                            <li><a data-toggle="tab" href="#hobbies">Interests & Hobbies</a></li>
+                            <li><a data-toggle="tab" href="#techskills">Skills</a></li>
+                        </ul>
+
+                        <div class="tab-content">
+                            <div id="aboutme" class="tab-pane fade in active">
+    <pre>
+        public static String getAboutMe(){
+
+            String education = "<strong>Pursuing my Master's in Computer Science at
+                                Northeastern University</strong>";
+
+            String experience = "<strong>Had three years of Sofware Development experience
+                                 in Backend and Frontend development</strong>";
+
+            String goal = "<strong>Looking for Software Developer position to captialize
+                           on the knowledge on web development and designing
+                           flawless end-to-end software solutions</strong>";
+
+            return education+experience+goal;
+
+        }
+    </pre>
+
+                            </div>
+                            <div id="hobbies" class="tab-pane fade">
+    <pre>
+        function InterestsAndHobbies(){
+
+            var interests = <strong>["computing",
+                            "volunteering",
+                            "socializing"];</strong>
+
+            var hobbies = <strong>["reading blogs",
+                            "swimming",
+                            "travelling",
+                            "watching football"];</strong>
+
+            var interestsandhobbies = interests.concat(hobbies);
+
+            return interestsandhobbies;
+
+        }
+    </pre>
+                            </div>
+                            <div id="techskills" class="tab-pane fade">
+    <pre>
+    def show_skills():
+
+        skills = {}
+
+        skills[<strong>'frontend'</strong>] = [<strong>'HTML5','CSS','JavaScript','jQuery','AngularJS'</strong>]
+
+        skills[<strong>'backend'</strong>] = [<strong>'Java','Python','Spring MVC', 'NodeJS'</strong>]
+
+        skills[<strong>'workflow_taskrunners'</strong>] = [<strong>'Bower','Grunt','Gulp'</strong>]
+
+        return skills
+
+    </pre>
+                            </div>
+                        </div>
+                    </div>
+
+               </div>
+
+              <div class="col-md-3 col-sm-4 scrollpoint sp-effect2"><!--Timeline-->
+
+                  <div class="timeline">
 
 
+                      <div class="event">
+                          <div class="event-info">
+                             <div>Aug 2012</div>
+                          </div>
+                      	  <span>Senior Software Developer - Infosys Limited</span>
+                      </div>
 
-<div class="pad">
+                      <div class="event">
+                          <div class="event-info">
+                             <div>Sep 2014</div>
+                          </div>
+                      	  <span>Started Master's in Computer Science</span>
+                      </div>
 
-<form method="post" action="./" id="form1">
-<div class="aspNetHidden">
-<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTUxMTcwNzgxMGRkakMI5oPHitKa+LkOhtbzVrqcTtjtS+Sf7UF3wl0SzTI=" />
-</div>
+                      <div class="event">
+                          <div class="event-info">
+                             <div>May 2015 </div>
+                          </div>
+                      	  <span> Software Developer Intern, Retsku</span>
+                      </div>
 
-<div class="aspNetHidden">
+                      <div class="event">
+                          <div class="event-info">
+                             <div> Dec 2016</div>
+                          </div>
+                      	  <span>Expected Master's Graduation</span>
+                      </div>
 
-	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="0FC2A2C1" />
-</div>
+                  </div><!--timeline-->
+              </div><!--col 3 end-->
 
-<div>
-
-<h4 style="font-size:16pt">
- Hi, I am a Computer Science graduate student at Northeastern University. This site is being developed as a part of the course Web Development under the guidance of Prof. Richard Rasala. 
-    
-</h4>
-
-<h4 style="font-size:16pt">
-    I have some basic knowledge of HTML5. I want to learn technologies like CSS, JQuery, ASP.Net, C# during the course.
-</h4>
+            </div><!--Row about end-->
 
 
-</div>
+            <div class="row">
+            	<div class="col-md-12 text-center">
+                	<a id="skills-toggle" class="btn btn-primary"><i class="fa fa-arrow-circle-o-down"></i> Design & Development Technologies</a>
+                </div>
+            </div>
+        </div><!-- Container end-->
+
+        <div id="skills">
+            <div class="container">
+                <div class="row"><!-- Toogle my skills start -->
+                    <div class="col-md-2">
+                        <div class="chart" data-percent="85">85% HTML</div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="chart" data-percent="85">85% CSS</div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="chart" data-percent="90">90% JS</div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="chart" data-percent="90">90% Java</div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="chart" data-percent="90">90% Angular</div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="chart" data-percent="80">80% NodeJS</div>
+                    </div>
+
+                </div><!-- Toogle my skills end-->
+
+            </div><!-- Container end-->
+        </div>
+
+    </section>
+    <!-- ==========================
+    	ABOUT - END
+    =========================== -->
+
+     <!-- ==========================
+    	Projects - START
+    =========================== -->
+    <section id="showcase" class="content-second">
+        <div class="container" id="projects">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2 class="scrollpoint sp-effect3">My Projects</h2>
+                </div>
+
+                <div class="col-lg-8 showcase-text scrollpoint sp-effect1">
+                    <div class="row">
+                    <!-- Project 1 -->
+                    	<div class="col-sm-6 col-md-6 col-lg-12">
+                            <div class="media">
+                                <div class="pull-left showcase-icon"><i class="fa fa-hand-o-right"></i></div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">Data visualization dashboards - <em>AngularJS, jQuery, AJAX</em></em></h4>
+                                    <ul class="fa-ul">
+                                        <li><i class="fa-li fa fa-check-square"></i>Delivered an AngularJS driven Single Page Application based portal for a backend application RETSKU, which
+                                        caters deep understanding and insights od products 
+                                        from various ecommerce sites.</li>
+                                        <li><i class="fa-li fa fa-check-square"></i>Created reusable visualization dashboards using Angular Custom Charts projecting pricing models and
+                                        promotional strategies of retail stores.</li>
+                                        <li><i class="fa-li fa fa-check-square"></i>Used package management tool Bower, JavaScript task runners Gulp.js for building and testing modules.</li>
+                                        <li><i class="fa-li fa fa-check-square"></i>Worked in Agile Software environment with solid understanding of SCRUM methodology.</li>
+                                        <li><i class="fa-li fa fa-check-square"></i>Used AJAX extensively to dynamically update parts of the web page asynchronously and handled asynchronous
+                                        programming via JavaScript promises.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Project 2 -->
+                    	<div class="col-sm-6 col-md-6 col-lg-12">
+                            <div class="media">
+                                <div class="pull-left showcase-icon"><i class="fa fa-hand-o-right"></i></div>
+                                <div class="media-body">
+                                   <h4 class="media-heading">Health care system - <em>AngularJS, Spring MVC, Java, Bootstrap, jQuery</em></h4>
+                                    <ul class="fa-ul">
+                                        <li><i class="fa-li fa fa-check-square"></i>Worked on developing a business model for an integrated Health Information Exchange System cutting across
+                                        hospitals, pharmacies, pharmaceutical companies and most importantly patient.</li>
+                                        <li><i class="fa-li fa fa-check-square"></i>Provided Direct and Query-Based safe Health Information Exchange, saving $17,160 annually for clinical practice.</li>
+                                        <li><i class="fa-li fa fa-check-square"></i>Create cross-browser compatible and standards compliant web pages using HTML5 and CSS3.</li>
+                                        <li><i class="fa-li fa fa-check-square"></i>Developer modular UI components in vanilla JavaScript that could be plugged in across the website.</li>
+                                        <li><i class="fa-li fa fa-check-square"></i>Improved the website performance and accelerated site speed by following best practices.</li>
+                                        <li><i class="fa-li fa fa-check-square"></i>Streamlined the web application into Single Page Application using Angular Router, minimizing server
+                                        roundtrips.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Project 3 -->
+                    	<div class="col-sm-6 col-md-6 col-lg-12">
+                            <div class="media">
+                                <div class="pull-left showcase-icon"><i class="fa fa-hand-o-right"></i></div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">Book Application - <em>AngularJS, Node.js, Express.js, MongoDB</em></h4>
+                                    <ul class="fa-ul">
+                                        <li><i class="fa-li fa fa-check-square"></i>Developed a simple book application to perform basic tasks of library using MEAN stack.</li>
+                                        <li><i class="fa-li fa fa-check-square"></i>Application consists of features like adding books, removing books, borrow and return dates, number of more books available and few more interesting features.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Project 4 -->
+                        <div class="col-sm-6 col-md-6 col-lg-12">
+                            <div class="media">
+                                <div class="pull-left showcase-icon"><i class="fa fa-hand-o-right"></i></div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">Movie Hub - <em>jQuery, AJAX, HTML5, CSS 3, Bootstrap</em></h4>
+                                    <ul class="fa-ul">
+                                        <li><i class="fa-li fa fa-check-square"></i>Developed a responsive movie website using jQuery, AJAX, API's.</li>
+                                        <li><i class="fa-li fa fa-check-square"></i>Added features like showcasing recently released movies and yet to release movies using MYAPIFilms api.</li>
+                                        <li><i class="fa-li fa fa-check-square"></i>Added features like displaying trailers using Youtube api.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>                        
+                        <!-- Project 5 -->
+                    	<div class="col-sm-6 col-md-6 col-lg-12">
+                            <div class="media">
+                                <div class="pull-left showcase-icon"><i class="fa fa-hand-o-right"></i></div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">Information Retrieval Projects - <em>JAVA, Elastic Search, Machine learning algorithms</em></h4>
+                                    <ul class="fa-ul">
+                                        <li><i class="fa-li fa fa-check-square"></i>Developed a Web Crawler and used page rank technique to fetch accurate search results.</i>
+                                        <li><i class="fa-li fa fa-check-square"></i>Built a spam classifier to classify an e-mail based on its content using Liblinear technique.</li>
+                                        <li><i class="fa-li fa fa-check-square"></i>Document indexing mechanism which takes as input a collection of documents and creates an inverted index for each token in the data.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- ==========================
+    	Projects - END
+    =========================== -->
+
+    <!-- ==========================
+    	Quotation - START
+    =========================== -->
+    <section id="quotes" class="content-first">
+        <div class="container">
+            <div class="row scrollpoint sp-effect3">
+                <div class="col-sm-8 col-sm-offset-2">
+                    <blockquote class="blockquote-reverse">
+                        <p><i class="fa fa-quote-left"></i>First we thought the PC was a calculator. Then we found out how to turn numbers into letters with ASCII — and we thought it was a typewriter. Then we discovered graphics, and we thought it was a television. With the World Wide Web, we’ve realized it’s a brochure.</p>
+                        <footer> Douglas Adams</footer>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ==========================
+    	QUOTES - END
+    =========================== -->
+
+    <!-- ==========================
+    	CONTACT - START
+    =========================== -->
+    <section id="contact" class="content-first">
+        <div class="container">
+        	<h2 class="scrollpoint sp-effect3">Contact me</h2>
+            <div class="contact-alert">
+            </div>
+            <div class="row">
+            <!-- PRICING TABLE FIRST - start -->
+                <div class="col-sm-12">
+                	<img src="image/macbook.png" class="img-responsive hidden-xs" alt="">
+
+                    <div class="macbook-inner black">
+                    	<div class="row scrollpoint sp-effect4">
+                        	<div class="col-sm-8">
+                            	<h3 class="hidden-xs">Leave a message</h3>
+
+                                <form role="form" id="contactForm">
+
+                                    <div class="form-group control-group">
+                                        <div class="controls">
+                                            <p class="help-block"></p>
+                                            <input type="text" class="form-control" placeholder="First Name" id="firstname" data-validation-required-message="Please enter your first name." aria-invalid="false">
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group control-group">
+                                        <div class="controls">
+                                            <p class="help-block"></p>
+                                            <input type="text" class="form-control" placeholder="Last Name" id="lastname" data-validation-required-message="Please enter your last name." aria-invalid="false">
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group control-group">
+                                        <div class="controls">
+                                            <p class="help-block"></p>
+                                            <input type="email" class="form-control" placeholder="Email" id="email" data-validation-required-message="Please enter your email address." aria-invalid="false">
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group control-group">
+                                        <div class="controls">
+                                            <p class="help-block"></p>
+                                            <textarea class="form-control" placeholder="Message" id="message" data-validation-required-message="Please enter some message." aria-invalid="false"></textarea>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <button type="submit" class="btn btn-primary">Send message</button>
+                                    </div>
+                                </form>
+
+                            </div>
+                            <div class="col-sm-4">
+
+                            <img src="image/Formal.jpg"  class="contact-image my-image image-responsive hidden-xs hidden-sm" alt="" />
+                            	<div class="contact-info">
+                                    <p>Vikas Vellanki</p>
+                                	<p>9C Smith Street</p>
+                                    <p>Boston, MA 02120</p>
+                                    <p>(774) 994 6968</p>
+                                </div>
+                            </div>
+                    	</div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ==========================
+    	CONTACT - END
+    =========================== -->
 
 
-</form>
+    <!-- ==========================
+    	JS
+    =========================== -->
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/creative-brands.js"></script>
+    <script src="js/jquery.easy-pie-chart.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.countTo.js"></script>
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/custom.js"></script>
+    <script>
+    $(function () {
+		$("input,textarea").jqBootstrapValidation({
+        	preventSubmit: true,
 
-</div>
+			submitSuccess: function($form, event) {
+				event.preventDefault(); // prevent default submit behaviour
+				// get values from FORM
+				var firstname = $("input#firstname").val();
+				var lastname = $("input#lastname").val();
+				var email = $("input#email").val();
+				var message = $("textarea#message").val();
 
+				$.ajax({
+					url: "send.php",
+					type: "POST",
+					data: {
+						firstname: firstname,
+						lastname: lastname,
+						email: email,
+						message: message
+					},
+					cache: false,
+					success: function() {
+						// Success message
+						$('.contact-alert').html("<div class='alert alert-success'>");
+						$('.contact-alert > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'><i class='fa fa-times'></i></button><strong>Your message has been sent.</strong></div>");
+						//clear all fields
+						$('#contactForm').trigger("reset");
+					},
+					error: function() {
+						// Fail message
+						$('.contact-alert').html("<div class='alert alert-danger'>");
+						$('.contact-alert > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'><i class='fa fa-times'></i></button><strong>Sorry, it seems that my mail server is not responding. Please try again later!</strong></div>");
+						//clear all fields
+						$('#contactForm').trigger("reset");
+					},
+				})
+			}
+		});
+	});
+    </script>
 </body>
 </html>
